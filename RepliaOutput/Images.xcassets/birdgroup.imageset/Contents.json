@@ -1,0 +1,23 @@
+{
+	"images": [
+		{
+			"idiom": "universal",
+			"scale": "1x",
+			"filename": "birdgroup.png"
+		},
+		{
+			"idiom": "universal",
+			"scale": "2x",
+			"filename": "birdgroup@2x.png"
+		},
+		{
+			"idiom": "universal",
+			"scale": "3x",
+			"filename": "birdgroup@3x.png"
+		}
+	],
+	"info": {
+		"version": 1,
+		"author": "xcode"
+	}
+}

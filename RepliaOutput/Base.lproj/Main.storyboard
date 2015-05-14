@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B17" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="Rpp-Tx-Nua">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="37j-jp-bIa">
+            <point key="canvasLocation" x="212" y="311"/>
+            <objects>
+                <viewController id="Rpp-Tx-Nua" customClass="UIViewController" sceneMemberID="viewController">
+                    <view id="5hf-i7-UqQ" contentMode="scaleToFill" key="view">
+                        <rect key="frame" x="0.0" y="0.0" width="320.0" height="568.0"/>
+                        <color alpha="1" colorSpace="calibratedWhite" key="backgroundColor" white="1"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView verticalHuggingPriority="251" horizontalHuggingPriority="251" image="bg" fixedFrame="YES" id="dve-9j-0uy" userInteractionEnabled="NO">
+                                <rect key="frame" x="0.0" y="0.0" width="320.0" height="568.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES" widthSizable="YES"/>
+                            </imageView>
+                            <imageView verticalHuggingPriority="251" horizontalHuggingPriority="251" image="birdgroup" fixedFrame="YES" id="m0I-L5-YnI" userInteractionEnabled="NO">
+                                <rect key="frame" x="4.0" y="394.0" width="151.5" height="179.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES" flexibleMaxX="YES"/>
+                            </imageView>
+                            <imageView verticalHuggingPriority="251" horizontalHuggingPriority="251" image="catgroup" fixedFrame="YES" id="gOa-9E-QMP" userInteractionEnabled="NO">
+                                <rect key="frame" x="150.5" y="394.0" width="164.5" height="162.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES" flexibleMinX="YES"/>
+                            </imageView>
+                            <view id="Rto-k7-DNZ" contentMode="scaleToFill" fixedFrame="YES">
+                                <rect key="frame" x="30.0" y="232.0" width="260.0" height="151.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES" widthSizable="YES"/>
+                                <subviews>
+                                    <view id="U2d-H4-04J" contentMode="scaleToFill" fixedFrame="YES" customClass="LoginView" customModule="RepliaOutput">
+                                        <rect key="frame" x="0.0" y="104.5" width="260.0" height="46.5"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxY="YES" widthSizable="YES"/>
+                                    </view>
+                                    <view id="izJ-FM-1Wq" contentMode="scaleToFill" fixedFrame="YES" customClass="PasswordView" customModule="RepliaOutput">
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="image" keyPath="iconpasswordImage" value="iconpassword"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <rect key="frame" x="0.0" y="51.5" width="260.0" height="43.0"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxY="YES" widthSizable="YES"/>
+                                    </view>
+                                    <view id="iLI-oM-fk2" contentMode="scaleToFill" fixedFrame="YES" customClass="EmailView" customModule="RepliaOutput">
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="image" keyPath="iconemailImage" value="iconemail"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <rect key="frame" x="0.0" y="0.0" width="260.0" height="43.0"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxY="YES" widthSizable="YES"/>
+                                    </view>
+                                </subviews>
+                            </view>
+                            <label adjustsFontSizeToFit="NO" id="Ee2-wM-0hm" lineBreakMode="tailTruncation" userInteractionEnabled="NO" verticalHuggingPriority="251" opaque="NO" horizontalHuggingPriority="251" fixedFrame="YES" textAlignment="center" contentMode="left" numberOfLines="0E0" baselineAdjustment="alignBaselines">
+                                <string key="text">G-ing</string>
+                                <color red="0.20001" blue="0.20001" alpha="1.0" green="0.20001" colorSpace="calibratedRGB" key="textColor"/>
+                                <fontDescription pointSize="32.0" name="Avenir-Roman" family="Avenir" key="fontDescription"/>
+                                <rect key="frame" x="0.0" y="173.5" width="318.0" height="67.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES" widthSizable="YES"/>
+                            </label>
+                            <imageView verticalHuggingPriority="251" horizontalHuggingPriority="251" image="beegroup" fixedFrame="YES" id="twK-dz-IiR" userInteractionEnabled="NO">
+                                <rect key="frame" x="165.0" y="37.5" width="150.0" height="150.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES" flexibleMinX="YES"/>
+                            </imageView>
+                            <imageView verticalHuggingPriority="251" horizontalHuggingPriority="251" image="sungroup" fixedFrame="YES" id="1OD-BC-fur" userInteractionEnabled="NO">
+                                <rect key="frame" x="5.0" y="17.5" width="150.0" height="170.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES" flexibleMaxX="YES"/>
+                            </imageView>
+                        </subviews>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320.0" height="568.0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Unf-9X-qEZ" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image width="320.0" height="568.0" name="bg"/>
+        <image width="151.5" height="179.5" name="birdgroup"/>
+        <image width="164.5" height="162.0" name="catgroup"/>
+        <image width="17.5" height="19.0" name="iconpassword"/>
+        <image width="18.5" height="13.0" name="iconemail"/>
+        <image width="150.0" height="150.0" name="beegroup"/>
+        <image width="150.0" height="170.0" name="sungroup"/>
+    </resources>
+</document>

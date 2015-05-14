@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D5E01EE1ABC4DA400DF6E8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5E01ED1ABC4DA400DF6E8D /* main.m */; };
+		5D5E01F11ABC4DA400DF6E8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5E01F01ABC4DA400DF6E8D /* AppDelegate.m */; };
+		80573DCA1574455F98F5785F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980FF12B8F7842718731412D /* LoginView.swift */; };
+		F627F43B5A5649569D0A6A87 /* PasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2238F297375A46F48361D058 /* PasswordView.swift */; };
+		EC23F30480F2418CA317C878 /* EmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A20B8AEC9B5434AB963BC43 /* EmailView.swift */; };
+//build		[ReplicotReferenceID2] /* [ReplicotFilePath] in Sources */ = {isa = PBXBuildFile; fileRef = [ReplicotReferenceID] /* [ReplicotFilePath] */; };
+		5D5E01F71ABC4DA400DF6E8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5E01F51ABC4DA400DF6E8D /* Main.storyboard */; };
+		5D5E01F91ABC4DA400DF6E8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D5E01F81ABC4DA400DF6E8D /* Images.xcassets */; };
+		5D5E01FC1ABC4DA400DF6E8D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D5E01FA1ABC4DA400DF6E8D /* LaunchScreen.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D5E01E81ABC4DA400DF6E8D /* RepliaOutput.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepliaOutput.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D5E01EC1ABC4DA400DF6E8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D5E01ED1ABC4DA400DF6E8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D5E01EF1ABC4DA400DF6E8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5D5E01F01ABC4DA400DF6E8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		980FF12B8F7842718731412D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		2238F297375A46F48361D058 /* PasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordView.swift; sourceTree = "<group>"; };
+		6A20B8AEC9B5434AB963BC43 /* EmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailView.swift; sourceTree = "<group>"; };
+//file		[ReplicotReferenceID] /* [ReplicotFilePath] */ = {isa = PBXFileReference; lastKnownFileType = [ReplicotLastKnownFileType]; path = [ReplicotFilePath]; sourceTree = "<group>"; };
+//		[ReplicotReferenceID] /* [ReplicotFilePath] */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = [ReplicotFilePath]; sourceTree = "<group>"; };
+//		[ReplicotReferenceID.m] /* ObjcViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjcViewController.m; sourceTree = "<group>"; };
+		5D5E01F61ABC4DA400DF6E8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D5E01F81ABC4DA400DF6E8D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5D5E01FB1ABC4DA400DF6E8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D5E01E51ABC4DA400DF6E8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D5E01DF1ABC4DA400DF6E8D = {
+			isa = PBXGroup;
+			children = (
+				5D5E01EA1ABC4DA400DF6E8D /* RepliaOutput */,
+				5D5E01E91ABC4DA400DF6E8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D5E01E91ABC4DA400DF6E8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D5E01E81ABC4DA400DF6E8D /* RepliaOutput.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D5E01EA1ABC4DA400DF6E8D /* RepliaOutput */ = {
+			isa = PBXGroup;
+			children = (
+				5D5E01EF1ABC4DA400DF6E8D /* AppDelegate.h */,
+				5D5E01F01ABC4DA400DF6E8D /* AppDelegate.m */,
+				980FF12B8F7842718731412D /* LoginView.swift */,
+				2238F297375A46F48361D058 /* PasswordView.swift */,
+				6A20B8AEC9B5434AB963BC43 /* EmailView.swift */,
+//file				[ReplicotReferenceID] /* [ReplicotFilePath] */,
+//\n				[ReplicotReferenceID.m] /* ObjcViewController.m */,
+				5D5E01F51ABC4DA400DF6E8D /* Main.storyboard */,
+				5D5E01F81ABC4DA400DF6E8D /* Images.xcassets */,
+				5D5E01FA1ABC4DA400DF6E8D /* LaunchScreen.xib */,
+				5D5E01EB1ABC4DA400DF6E8D /* Supporting Files */,
+			);
+			path = RepliaOutput;
+			sourceTree = "<group>";
+		};
+		5D5E01EB1ABC4DA400DF6E8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D5E01EC1ABC4DA400DF6E8D /* Info.plist */,
+				5D5E01ED1ABC4DA400DF6E8D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D5E01E71ABC4DA400DF6E8D /* RepliaOutput */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D5E020B1ABC4DA400DF6E8D /* Build configuration list for PBXNativeTarget "RepliaOutput" */;
+			buildPhases = (
+				5D5E01E41ABC4DA400DF6E8D /* Sources */,
+				5D5E01E51ABC4DA400DF6E8D /* Frameworks */,
+				5D5E01E61ABC4DA400DF6E8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RepliaOutput;
+			productName = RepliaOutput;
+			productReference = 5D5E01E81ABC4DA400DF6E8D /* RepliaOutput.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D5E01E01ABC4DA400DF6E8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = example;
+				TargetAttributes = {
+					5D5E01E71ABC4DA400DF6E8D = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 5D5E01E31ABC4DA400DF6E8D /* Build configuration list for PBXProject "RepliaOutput" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D5E01DF1ABC4DA400DF6E8D;
+			productRefGroup = 5D5E01E91ABC4DA400DF6E8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D5E01E71ABC4DA400DF6E8D /* RepliaOutput */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D5E01E61ABC4DA400DF6E8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5E01F71ABC4DA400DF6E8D /* Main.storyboard in Resources */,
+				5D5E01FC1ABC4DA400DF6E8D /* LaunchScreen.xib in Resources */,
+				5D5E01F91ABC4DA400DF6E8D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D5E01E41ABC4DA400DF6E8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80573DCA1574455F98F5785F /* ObjcViewController.m in Sources */,
+				F627F43B5A5649569D0A6A87 /* ObjcViewController.m in Sources */,
+				EC23F30480F2418CA317C878 /* ObjcViewController.m in Sources */,
+//build				[ReplicotReferenceID2] /* ObjcViewController.m in Sources */,
+				5D5E01F11ABC4DA400DF6E8D /* AppDelegate.m in Sources */,
+				5D5E01EE1ABC4DA400DF6E8D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5D5E01F51ABC4DA400DF6E8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D5E01F61ABC4DA400DF6E8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D5E01FA1ABC4DA400DF6E8D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D5E01FB1ABC4DA400DF6E8D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D5E02091ABC4DA400DF6E8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D5E020A1ABC4DA400DF6E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D5E020C1ABC4DA400DF6E8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RepliaOutput/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5D5E020D1ABC4DA400DF6E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RepliaOutput/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D5E01E31ABC4DA400DF6E8D /* Build configuration list for PBXProject "RepliaOutput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D5E02091ABC4DA400DF6E8D /* Debug */,
+				5D5E020A1ABC4DA400DF6E8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D5E020B1ABC4DA400DF6E8D /* Build configuration list for PBXNativeTarget "RepliaOutput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D5E020C1ABC4DA400DF6E8D /* Debug */,
+				5D5E020D1ABC4DA400DF6E8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D5E01E01ABC4DA400DF6E8D /* Project object */;
+}
