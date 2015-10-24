@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		5D5E01EE1ABC4DA400DF6E8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5E01ED1ABC4DA400DF6E8D /* main.m */; };
 		5D5E01F11ABC4DA400DF6E8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5E01F01ABC4DA400DF6E8D /* AppDelegate.m */; };
-		80573DCA1574455F98F5785F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980FF12B8F7842718731412D /* LoginView.swift */; };
-		F627F43B5A5649569D0A6A87 /* PasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2238F297375A46F48361D058 /* PasswordView.swift */; };
-		EC23F30480F2418CA317C878 /* EmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A20B8AEC9B5434AB963BC43 /* EmailView.swift */; };
+		BFD3E25D884D403CAD38266C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7188D2FD51C14B9A9B0C56B6 /* LoginView.swift */; };
+		84E8D3FBFF47414B85301712 /* PasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B133B091EA4C799FB26A37 /* PasswordView.swift */; };
+		E7A33913A99440CE84846579 /* EmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D0EAB276874FF8813FF263 /* EmailView.swift */; };
 //build		[ReplicotReferenceID2] /* [ReplicotFilePath] in Sources */ = {isa = PBXBuildFile; fileRef = [ReplicotReferenceID] /* [ReplicotFilePath] */; };
 		5D5E01F71ABC4DA400DF6E8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5E01F51ABC4DA400DF6E8D /* Main.storyboard */; };
 		5D5E01F91ABC4DA400DF6E8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D5E01F81ABC4DA400DF6E8D /* Images.xcassets */; };
@@ -24,9 +24,9 @@
 		5D5E01ED1ABC4DA400DF6E8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5D5E01EF1ABC4DA400DF6E8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5D5E01F01ABC4DA400DF6E8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		980FF12B8F7842718731412D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		2238F297375A46F48361D058 /* PasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordView.swift; sourceTree = "<group>"; };
-		6A20B8AEC9B5434AB963BC43 /* EmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailView.swift; sourceTree = "<group>"; };
+		7188D2FD51C14B9A9B0C56B6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E0B133B091EA4C799FB26A37 /* PasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordView.swift; sourceTree = "<group>"; };
+		29D0EAB276874FF8813FF263 /* EmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailView.swift; sourceTree = "<group>"; };
 //file		[ReplicotReferenceID] /* [ReplicotFilePath] */ = {isa = PBXFileReference; lastKnownFileType = [ReplicotLastKnownFileType]; path = [ReplicotFilePath]; sourceTree = "<group>"; };
 //		[ReplicotReferenceID] /* [ReplicotFilePath] */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = [ReplicotFilePath]; sourceTree = "<group>"; };
 //		[ReplicotReferenceID.m] /* ObjcViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjcViewController.m; sourceTree = "<group>"; };
@@ -67,9 +67,9 @@
 			children = (
 				5D5E01EF1ABC4DA400DF6E8D /* AppDelegate.h */,
 				5D5E01F01ABC4DA400DF6E8D /* AppDelegate.m */,
-				980FF12B8F7842718731412D /* LoginView.swift */,
-				2238F297375A46F48361D058 /* PasswordView.swift */,
-				6A20B8AEC9B5434AB963BC43 /* EmailView.swift */,
+				7188D2FD51C14B9A9B0C56B6 /* LoginView.swift */,
+				E0B133B091EA4C799FB26A37 /* PasswordView.swift */,
+				29D0EAB276874FF8813FF263 /* EmailView.swift */,
 //file				[ReplicotReferenceID] /* [ReplicotFilePath] */,
 //\n				[ReplicotReferenceID.m] /* ObjcViewController.m */,
 				5D5E01F51ABC4DA400DF6E8D /* Main.storyboard */,
@@ -115,6 +115,8 @@
 		5D5E01E01ABC4DA400DF6E8D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = example;
 				TargetAttributes = {
@@ -159,9 +161,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80573DCA1574455F98F5785F /* ObjcViewController.m in Sources */,
-				F627F43B5A5649569D0A6A87 /* ObjcViewController.m in Sources */,
-				EC23F30480F2418CA317C878 /* ObjcViewController.m in Sources */,
+				BFD3E25D884D403CAD38266C /* ObjcViewController.m in Sources */,
+				84E8D3FBFF47414B85301712 /* ObjcViewController.m in Sources */,
+				E7A33913A99440CE84846579 /* ObjcViewController.m in Sources */,
 //build				[ReplicotReferenceID2] /* ObjcViewController.m in Sources */,
 				5D5E01F11ABC4DA400DF6E8D /* AppDelegate.m in Sources */,
 				5D5E01EE1ABC4DA400DF6E8D /* main.m in Sources */,
